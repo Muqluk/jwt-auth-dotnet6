@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuthentication", "JWTAuthentication\JWTAuthentication.csproj", "{495A706F-A100-4662-9BE4-87D5A471B39C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample DB", "Sample DB", "{472BF73C-DC05-41E5-A4AC-324DF73926F1}"
+	ProjectSection(SolutionItems) = preProject
+		SeedDb.sql = SeedDb.sql
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "JWTAuthentication.Database", "JWTAuthentication.Database\JWTAuthentication.Database.sqlproj", "{5B11FE95-DD0C-48DD-8BA3-EB5DB7307449}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{495A706F-A100-4662-9BE4-87D5A471B39C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{495A706F-A100-4662-9BE4-87D5A471B39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{495A706F-A100-4662-9BE4-87D5A471B39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{495A706F-A100-4662-9BE4-87D5A471B39C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B11FE95-DD0C-48DD-8BA3-EB5DB7307449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B11FE95-DD0C-48DD-8BA3-EB5DB7307449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B11FE95-DD0C-48DD-8BA3-EB5DB7307449}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5B11FE95-DD0C-48DD-8BA3-EB5DB7307449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B11FE95-DD0C-48DD-8BA3-EB5DB7307449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B11FE95-DD0C-48DD-8BA3-EB5DB7307449}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B11FE95-DD0C-48DD-8BA3-EB5DB7307449} = {472BF73C-DC05-41E5-A4AC-324DF73926F1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7654603B-18BF-4CC6-A81A-2ABC26F4D1E2}
+	EndGlobalSection
+EndGlobal
